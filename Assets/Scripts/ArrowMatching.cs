@@ -21,17 +21,27 @@ public class ArrowMatching : MonoBehaviour
         playerDir = transform.rotation.eulerAngles.z;       // 0 -> up, 90 -> left, 180 -> down, 270 -> right
     }
 
-    void OnTriggerEnter2D (Collider2D other)
-	{
-		Arrow arrow = other.GetComponent<Arrow>();
-		if (arrow != null) {
-            float arrowDir = arrow.transform.rotation.eulerAngles.z; 
-            if (Mathf.Abs(arrowDir-playerDir)==180) {
-                Debug.Log("match!");
-            } else {
-                Debug.Log("no match :(");
-            }
-			arrow.Disappear();                          // TODO make arrow disappear - check how this is actually named in arrow script
-		}
-	}
+    void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("collision!");
+
+        float arrowDir = -1;
+        if (other.gameObject.CompareTag("Up")) {
+            arrowDir = 0;
+        } else if (other.gameObject.CompareTag("Left")) {
+            arrowDir = 90;
+        } else if (other.gameObject.CompareTag("Down")) {
+            arrowDir = 180; 
+        } else if (other.gameObject.CompareTag("Right")) {
+            arrowDir = 270;
+        }
+
+        Debug.LogFormat("playerDir: {0}   //   arrowDir: {1}", playerDir, arrowDir);
+        if (Mathf.Abs(arrowDir - playerDir) == 180) {
+            Debug.Log("match!");
+        }
+        else {
+            Debug.Log("no match :(");
+        }
+        other.gameObject.GetComponent<Arrow>().Disappear();
+    }
 }

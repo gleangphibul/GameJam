@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArrowDown
       objectReference: {fileID: 0}
+    - target: {fileID: 4834944314346760190, guid: 5b0e32993e30644cab8e3cadd3989fc3, type: 3}
+      propertyPath: m_TagString
+      value: Down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

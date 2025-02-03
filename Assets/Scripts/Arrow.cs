@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class ArrowScript : MonoBehaviour
+public class Arrow : MonoBehaviour
 {
     public float speed = 1;
     Vector3 direction = Vector3.zero;
