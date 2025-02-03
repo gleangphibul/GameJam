@@ -19,15 +19,15 @@ public class PlayerController : MonoBehaviour {
 
     private void Change() {
         transform.Rotate(new Vector3(0,0,90));
-        if (transform.rotation.eulerAngles.z == 90) {
-            Debug.Log("left");
-        } else if (transform.rotation.eulerAngles.z == 270) {
-            Debug.Log("right");
-        } else if (transform.rotation.eulerAngles.z == 0) {
-            Debug.Log("up");
-        } else if (transform.rotation.eulerAngles.z == 180) {
-            Debug.Log("down");
-        }
+        // if (transform.rotation.eulerAngles.z == 90) {
+        //     Debug.Log("left");
+        // } else if (transform.rotation.eulerAngles.z == 270) {
+        //     Debug.Log("right");
+        // } else if (transform.rotation.eulerAngles.z == 0) {
+        //     Debug.Log("up");
+        // } else if (transform.rotation.eulerAngles.z == 180) {
+        //     Debug.Log("down");
+        // }
     }
 
     private void RandomDirection() {
