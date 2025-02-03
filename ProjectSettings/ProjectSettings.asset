@@ -687,11 +687,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 3a912140-d625-4562-b5e0-c4c16f0a49d9
+  cloudProjectId: 052f9059-03f5-43b6-a8fb-a7f4b9225e89
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ButtonRevolution
-  organizationId: gleangphibul
+  projectName: GameJam
+  organizationId: lhchi04
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
