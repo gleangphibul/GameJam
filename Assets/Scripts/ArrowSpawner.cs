@@ -5,8 +5,8 @@ public class ArrowSpawner : MonoBehaviour
 
     public float spawnRate = 1;
     [Header("Arrows")]
-    public GameObject[] arrows;
-
+    public GameObject[] arrowDirections;
+    public Transform[] spawnPoints;
 
     private float lastSpawnTime = 0;
 
@@ -14,20 +14,59 @@ public class ArrowSpawner : MonoBehaviour
     void Start()
     {
         
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (lastSpawnTime + 1 / spawnRate < Time.time)
         {
-            lastSpawnTime = Time.time;
-            Vector3 spawnPosition = transform.position;
-            
-            int randomIndex = Random.Range(0, arrows.Length);
-            GameObject arrow = Instantiate(arrows[randomIndex], spawnPosition, Quaternion.identity);
+            SpawnArrows();
         }
+
     }
 
-    
+    private void SpawnArrows()
+    {
+        lastSpawnTime = Time.time;
+        int spawnIndex = Random.Range(0, spawnPoints.Length);
+        Transform spawnPoint = spawnPoints[spawnIndex];
+
+        int arrowIndex = Random.Range(0, arrowDirections.Length);
+        GameObject arrow = Instantiate(arrowDirections[arrowIndex], spawnPoint.position, Quaternion.identity);
+
+        Arrow newArrow = arrow.GetComponent<Arrow>();
+        if (newArrow != null)
+        {
+            Vector3 arrowDirection = GetSpawnDirection(spawnPoint);
+            newArrow.SetDirection(arrowDirection);
+        }
+        
+    }
+
+    private Vector3 GetSpawnDirection(Transform spawnPoint)
+    {
+        Vector3 direction = Vector3.zero;
+        if (spawnPoint.position.x < 0)
+        {
+            direction = Vector3.right;
+        }
+        else if (spawnPoint.position.x > 0)
+        {
+            direction = Vector3.left;
+        } 
+        else if (spawnPoint.position.y < 0)
+        {
+            direction = Vector3.up;
+        }
+        else if (spawnPoint.position.y > 0)
+        {
+            direction = Vector3.down;
+        }
+        return direction;
+    }
+
+
 }
