@@ -1,27 +1,19 @@
 using UnityEngine;
 
 /// <summary>
-/// This script handles the player functionality: changing button. The player needs any Collider2D attached that has the trigger flag checked, so it can be hit
-/// by the arrows.
+/// This script handles the player functionality: changing direction.
 /// </summary>
 public class PlayerController : MonoBehaviour {
-
-    Rigidbody2D rb2d;
-    
-    [Header("Changing")]
     public KeyCode change = KeyCode.Space;
-    public SpriteRenderer _playerSpriteRenderer;
     private int[] zRotation = new int[] {0,90,270,180}; // 180 doesnt work for up and left
 
     void Start() {
-        rb2d = GetComponent<Rigidbody2D>();
-        _playerSpriteRenderer = GetComponent<SpriteRenderer>();
-        RandomDirection();
+        RandomDirection(); // Make player point to a random direction
     }
 
     void Update() {
         if (Input.GetKeyDown(change)) {
-            Change();
+            Change(); // Change direction by 90 degrees to the left
         }
     }
 
