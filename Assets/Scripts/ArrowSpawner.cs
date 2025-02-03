@@ -1,19 +1,17 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class ArrowSpawner : MonoBehaviour
 {
 
     public float spawnRate = 1;
-    [Header("Arrows")]
     public GameObject[] arrowDirections;
     public Transform[] spawnPoints;
-
     private float lastSpawnTime = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
 
     }
 
@@ -31,8 +29,11 @@ public class ArrowSpawner : MonoBehaviour
     private void SpawnArrows()
     {
         lastSpawnTime = Time.time;
+
         int spawnIndex = Random.Range(0, spawnPoints.Length);
         Transform spawnPoint = spawnPoints[spawnIndex];
+        Debug.Log(spawnPoint);
+
 
         int arrowIndex = Random.Range(0, arrowDirections.Length);
         GameObject arrow = Instantiate(arrowDirections[arrowIndex], spawnPoint.position, Quaternion.identity);
@@ -43,8 +44,10 @@ public class ArrowSpawner : MonoBehaviour
             Vector3 arrowDirection = GetSpawnDirection(spawnPoint);
             newArrow.SetDirection(arrowDirection);
         }
-        
+
+                
     }
+
 
     private Vector3 GetSpawnDirection(Transform spawnPoint)
     {
