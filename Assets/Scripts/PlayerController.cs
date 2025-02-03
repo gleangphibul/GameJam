@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void RandomDirection() {
-        _playerSpriteRenderer.transform.Rotate(new Vector3(0,0,zRotation[Random.Range(0,2)]));
+        transform.Rotate(new Vector3(0,0,zRotation[Random.Range(0,2)]));
     }
 }
 
