@@ -4,19 +4,25 @@ using System.Collections;
 public class Arrow : MonoBehaviour
 {
     public float speed = 1;
-    Vector2 direction = new Vector2();
+    Vector3 direction = Vector3.zero;
     void Start()
     {
-       direction = new Vector2(0,-1); 
+
     }
     
     void Update()
     {
-        transform.position = transform.position + new Vector3(direction.x, direction.y, 0) * speed * Time.deltaTime;
+        transform.position = transform.position + direction * speed * Time.deltaTime;
     }
 
     public void Disappear()
     {
         Destroy(gameObject);
     } 
+
+    public void SetDirection(Vector3 dir)
+    {
+        direction = dir.normalized;
+    }
+
 }
