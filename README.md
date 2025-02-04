@@ -1,7 +1,7 @@
 # Welcome to Kitchen Crashout!
-2025 Spring Game Programming at DIS
-GameJam during core course week
-2025/02/03 - 2025/02/04
+2025 Spring Game Programming at DIS   
+GameJam during core course week   
+2025/02/03 - 2025/02/04   
 
 **Team Members:** Garn Leangphibul, Chi Le, Sahnnee Shin, Sumika Aoyama, Elena Wang   
 
