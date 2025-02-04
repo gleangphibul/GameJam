@@ -3,7 +3,7 @@
 GameJam during core course week
 2025/02/03 - 2025/02/04
 
-**Team Members:** Garn, Chi, Sahnnee, Sumika, Elena   
+**Team Members:** Garn Leangphibul, Chi Le, Sahnnee Shin, Sumika Aoyama, Elena Wang   
 
 
 Over the course of February 3-4 during the 2025 Spring semester of DIS in Copenhagen, the Game Programming core course held a Game Jam.
