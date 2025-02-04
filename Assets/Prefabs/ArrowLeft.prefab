@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4002611124822410253, guid: 5b0e32993e30644cab8e3cadd3989fc3, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1670851621681425418, guid: 5b0e32993e30644cab8e3cadd3989fc3, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -68,7 +72,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Left
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4002611124822410253, guid: 5b0e32993e30644cab8e3cadd3989fc3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

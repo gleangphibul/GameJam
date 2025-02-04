@@ -1,5 +1,8 @@
 using UnityEngine;
+<<<<<<< HEAD
 
+=======
+>>>>>>> e18eef9e09ab005bdd8ed6a4b946df339b49499e
 
 public class SpriteController : MonoBehaviour
 {
