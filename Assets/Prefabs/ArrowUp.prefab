@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1670851621681425418}
   - component: {fileID: 3163180324022842862}
   - component: {fileID: 3611279133724594353}
-  - component: {fileID: -4002611124822410253}
+  - component: {fileID: 8698407351052846190}
   m_Layer: 0
   m_Name: ArrowUp
   m_TagString: Up
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 9478795197586167, guid: 2145e34d4757248f5a36787038b4e95b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -163,7 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-4002611124822410253
+--- !u!114 &8698407351052846190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,4 +175,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bc4793170e446d0b6c8a39650389e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
