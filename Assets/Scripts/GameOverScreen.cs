@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour
 {
-    public void SetUp(int time)
-    {
-        //pointsText.text = "Time:" + time.ToString();
-    }
 
     public void PlayAgain()
     {

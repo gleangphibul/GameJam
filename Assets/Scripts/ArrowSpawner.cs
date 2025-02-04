@@ -4,9 +4,9 @@ using System.Collections.Generic;
 public class ArrowSpawner : MonoBehaviour
 {
 
-    public float spawnRate = 1;
+    public float spawnRate = 0.5f;
     public float spawnRateIncrease = 0.1f;
-    public float maxSpawnRate = 5;
+    public float maxSpawnRate = 3;
     public float increaseInterval = 6f;
 
     public GameObject[] arrowDirections;
@@ -43,8 +43,6 @@ public class ArrowSpawner : MonoBehaviour
 
         int spawnIndex = Random.Range(0, spawnPoints.Length);
         Transform spawnPoint = spawnPoints[spawnIndex];
-        Debug.Log(spawnPoint);
-
 
         int arrowIndex = Random.Range(0, arrowDirections.Length);
         GameObject arrow = Instantiate(arrowDirections[arrowIndex], spawnPoint.position, Quaternion.identity);

@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 7749da6d0d4984f9a96d8c192b66223d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7542674025352263164
+    second: Food 1_0
+  - first:
+      213: 5458520609998601802
+    second: Food 1_1
+  - first:
+      213: -128371780727109658
+    second: Food 1_2
+  - first:
+      213: -5663587096937779053
+    second: Food 1_3
+  - first:
+      213: 538914489714482416
+    second: Food 1_4
+  - first:
+      213: 1540587595362566662
+    second: Food 1_5
+  - first:
+      213: 4509146241119624695
+    second: Food 1_6
+  - first:
+      213: 8403759499370076504
+    second: Food 1_7
+  - first:
+      213: -7672424891213551670
+    second: Food 1_8
+  - first:
+      213: -1432192117791835810
+    second: Food 1_9
+  - first:
+      213: 3262720623980873528
+    second: Food 1_10
+  - first:
+      213: 359489423818539871
+    second: Food 1_11
+  - first:
+      213: -9204716903763789073
+    second: Food 1_12
+  - first:
+      213: -2346782471855325396
+    second: Food 1_13
+  - first:
+      213: -114204782434692556
+    second: Food 1_14
+  - first:
+      213: -1457902204752371990
+    second: Food 1_15
+  - first:
+      213: -6542131755644144976
+    second: Food 1_16
+  - first:
+      213: 7205438129794868709
+    second: Food 1_17
+  - first:
+      213: 5628242663628630737
+    second: Food 1_18
+  - first:
+      213: 2444514606127611608
+    second: Food 1_19
+  - first:
+      213: -4424139755850454950
+    second: Food 1_20
+  - first:
+      213: -7081629086323949124
+    second: Food 1_21
+  - first:
+      213: -8467180951487633968
+    second: Food 1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Food 1_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ffa13016fca860800000000000000
+      internalID: 7542674025352263164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Food 1_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e7d16039f80cb40800000000000000
+      internalID: 5458520609998601802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Food 1_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 79
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7839aab8ee73ef0800000000000000
+      internalID: -128371780727109658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Food 1_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd1936ad94b39e30800000000000000
+      internalID: 4509146241119624695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Food 1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 48
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53c63fe9b92df400800000000000000
+      internalID: 359489423818539871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 580b6d033a4234bf38d72787d821f212
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Food 1_0: 7542674025352263164
+      Food 1_1: 5458520609998601802
+      Food 1_10: 3262720623980873528
+      Food 1_11: 359489423818539871
+      Food 1_12: -9204716903763789073
+      Food 1_13: -2346782471855325396
+      Food 1_14: -114204782434692556
+      Food 1_15: -1457902204752371990
+      Food 1_16: -6542131755644144976
+      Food 1_17: 7205438129794868709
+      Food 1_18: 5628242663628630737
+      Food 1_19: 2444514606127611608
+      Food 1_2: -128371780727109658
+      Food 1_20: -4424139755850454950
+      Food 1_21: -7081629086323949124
+      Food 1_22: -8467180951487633968
+      Food 1_3: -5663587096937779053
+      Food 1_4: 538914489714482416
+      Food 1_5: 1540587595362566662
+      Food 1_6: 4509146241119624695
+      Food 1_7: 8403759499370076504
+      Food 1_8: -7672424891213551670
+      Food 1_9: -1432192117791835810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

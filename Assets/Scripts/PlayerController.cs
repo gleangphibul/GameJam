@@ -5,10 +5,9 @@ using UnityEngine;
 /// </summary>
 public class PlayerController : MonoBehaviour {
     public KeyCode change = KeyCode.Space;
-    private int[] zRotation = new int[] {0,90,270,180}; // 180 doesnt work for up and left
+    // private int[] zRotation = new int[] {0,90,270,180}; // 180 doesnt work for up and left
 
     void Start() {
-        RandomDirection(); // Make player point to a random direction
     }
 
     void Update() {
@@ -28,10 +27,6 @@ public class PlayerController : MonoBehaviour {
         // } else if (transform.rotation.eulerAngles.z == 180) {
         //     Debug.Log("down");
         // }
-    }
-
-    private void RandomDirection() {
-        transform.Rotate(new Vector3(0,0,zRotation[Random.Range(0,2)]));
     }
 }
 
